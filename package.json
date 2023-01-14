@@ -1,0 +1,27 @@
+{
+  "name": "vue-project",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "prosemirror-example-setup": "^1.2.1",
+    "prosemirror-markdown": "1.2.0",
+    "prosemirror-menu": "^1.2.1",
+    "prosemirror-model": "^1.6.2",
+    "prosemirror-schema-basic": "^1.0.0",
+    "prosemirror-schema-list": "^1.2.2",
+    "prosemirror-state": "^1.2.2",
+    "prosemirror-view": "^1.6.3",
+    "vue": "^2.7.7",
+    "vue-prosemirror-2": "^0.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}
