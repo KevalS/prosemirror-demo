@@ -134,7 +134,7 @@ document.addEventListener('mouseup', (e) => {
   startOffset = startOffset < 0 ? 0 : startOffset;
 
   endOffset = range.endOffset + endOffset;
-  endOffset = endOffset >= range.endContainer.data.length ? range.endContainer.data.length - 1 : endOffset;
+  endOffset = endOffset >= range.endContainer.data.length ? range.endContainer.data.length : endOffset;
 
   if (startOffset < endOffset) {
     range.setStart(range.startContainer, startOffset);
